@@ -1,3 +1,5 @@
+// ignore_for_file: duplicate_import
+
 import 'package:full_app/core/app_export.dart';
 import '../../../core/app_export.dart';
 import 'aqcard1_item_model.dart';

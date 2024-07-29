@@ -271,9 +271,4 @@ extension on TextStyle {
     );
   }
 
-  TextStyle get timmana {
-    return copyWith(
-      fontFamily: 'Timmana',
-    );
-  }
 }

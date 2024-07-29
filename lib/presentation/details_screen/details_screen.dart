@@ -512,7 +512,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                     ),
                     hintText: "lbl_15_12_2020".tr,
                     items: controller
-                        .detailsModelObj.value.dropdownItemList!.value,
+                        .detailsModelObj.value.dropdownItemList.value,
                     onChanged: (value) {
                       controller.onSelected(value);
                     },
@@ -533,7 +533,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                     ),
                     hintText: "lbl_16_00".tr,
                     items: controller
-                        .detailsModelObj.value.dropdownItemList1!.value,
+                        .detailsModelObj.value.dropdownItemList1.value,
                     onChanged: (value) {
                       controller.onSelected1(value);
                     },
@@ -1050,7 +1050,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                     ),
                     hintText: "lbl_aqi".tr,
                     items: controller
-                        .detailsModelObj.value.dropdownItemList2!.value,
+                        .detailsModelObj.value.dropdownItemList2.value,
                     contentPadding: EdgeInsets.symmetric(vertical: 1.v),
                     onChanged: (value) {
                       controller.onSelected2(value);
@@ -1222,7 +1222,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                     ),
                     hintText: "lbl_weekly".tr,
                     items: controller
-                        .detailsModelObj.value.dropdownItemList3!.value,
+                        .detailsModelObj.value.dropdownItemList3.value,
                     onChanged: (value) {
                       controller.onSelected3(value);
                     },

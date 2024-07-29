@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 import 'package:full_app/core/app_export.dart';
 import 'package:full_app/widgets/custom_text_form_field.dart';
