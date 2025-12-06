@@ -98,7 +98,7 @@ class AqhistoryItemWidget extends StatelessWidget {
                     height: 1.v,
                     width: 280.h,
                     decoration: BoxDecoration(
-                      color: appTheme.black900.withOpacity(0.08),
+                      color: appTheme.black900.withValues(alpha: 0.08),
                     ),
                   ),
                   SizedBox(height: 16.v),
@@ -115,7 +115,7 @@ class AqhistoryItemWidget extends StatelessWidget {
                             width: 280.h,
                             margin: EdgeInsets.only(top: 11.v),
                             decoration: BoxDecoration(
-                              color: appTheme.black900.withOpacity(0.08),
+                              color: appTheme.black900.withValues(alpha: 0.08),
                             ),
                           ),
                         ),
@@ -126,7 +126,7 @@ class AqhistoryItemWidget extends StatelessWidget {
                             width: 280.h,
                             margin: EdgeInsets.only(top: 39.v),
                             decoration: BoxDecoration(
-                              color: appTheme.black900.withOpacity(0.08),
+                              color: appTheme.black900.withValues(alpha: 0.08),
                             ),
                           ),
                         ),
@@ -137,7 +137,7 @@ class AqhistoryItemWidget extends StatelessWidget {
                             width: 280.h,
                             margin: EdgeInsets.only(bottom: 27.v),
                             decoration: BoxDecoration(
-                              color: appTheme.black900.withOpacity(0.08),
+                              color: appTheme.black900.withValues(alpha: 0.08),
                             ),
                           ),
                         ),
@@ -386,7 +386,7 @@ class AqhistoryItemWidget extends StatelessWidget {
                     height: 1.v,
                     width: 280.h,
                     decoration: BoxDecoration(
-                      color: appTheme.black900.withOpacity(0.08),
+                      color: appTheme.black900.withValues(alpha: 0.08),
                     ),
                   ),
                   SizedBox(height: 3.v),

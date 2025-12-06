@@ -484,10 +484,10 @@ class DashboardFiveScreen extends GetWidget<DashboardFiveController> {
     return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       Text(pageTitle,
           style: CustomTextStyles.bodySmall10
-              .copyWith(color: appTheme.black900.withOpacity(0.72))),
+              .copyWith(color: appTheme.black900.withValues(alpha: 0.72))),
       Text(pageTitle1,
           style: theme.textTheme.titleLarge!
-              .copyWith(color: appTheme.black900.withOpacity(0.96)))
+              .copyWith(color: appTheme.black900.withValues(alpha: 0.96)))
     ]);
   }
 

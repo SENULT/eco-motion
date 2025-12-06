@@ -332,14 +332,14 @@ class AqiScaleScreen extends GetWidget<AqiScaleController> {
                 Text(
                   low,
                   style: CustomTextStyles.bodyLargeOnPrimary.copyWith(
-                    color: theme.colorScheme.onPrimary.withOpacity(1),
+                    color: theme.colorScheme.onPrimary.withValues(alpha: 1),
                   ),
                 ),
                 SizedBox(height: 3.v),
                 Text(
                   airQualityIndex,
                   style: CustomTextStyles.bodySmallGray900.copyWith(
-                    color: appTheme.gray900.withOpacity(0.72),
+                    color: appTheme.gray900.withValues(alpha: 0.72),
                   ),
                 ),
                 SizedBox(height: 5.v),
@@ -350,7 +350,7 @@ class AqiScaleScreen extends GetWidget<AqiScaleController> {
                     maxLines: 4,
                     overflow: TextOverflow.ellipsis,
                     style: CustomTextStyles.bodySmall10.copyWith(
-                      color: appTheme.black900.withOpacity(0.72),
+                      color: appTheme.black900.withValues(alpha: 0.72),
                       height: 1.40,
                     ),
                   ),

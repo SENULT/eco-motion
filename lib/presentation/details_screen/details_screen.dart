@@ -511,8 +511,8 @@ class DetailsScreen extends GetWidget<DetailsController> {
                       ),
                     ),
                     hintText: "lbl_15_12_2020".tr,
-                    items: controller
-                        .detailsModelObj.value.dropdownItemList.value,
+                    items:
+                        controller.detailsModelObj.value.dropdownItemList.value,
                     onChanged: (value) {
                       controller.onSelected(value);
                     },
@@ -1074,7 +1074,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                   height: 1.v,
                   width: 280.h,
                   decoration: BoxDecoration(
-                    color: appTheme.black900.withOpacity(0.08),
+                    color: appTheme.black900.withValues(alpha: 0.08),
                   ),
                 ),
                 SizedBox(height: 16.v),
@@ -1091,7 +1091,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                           width: 280.h,
                           margin: EdgeInsets.only(top: 11.v),
                           decoration: BoxDecoration(
-                            color: appTheme.black900.withOpacity(0.08),
+                            color: appTheme.black900.withValues(alpha: 0.08),
                           ),
                         ),
                       ),
@@ -1102,7 +1102,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                           width: 280.h,
                           margin: EdgeInsets.only(top: 39.v),
                           decoration: BoxDecoration(
-                            color: appTheme.black900.withOpacity(0.08),
+                            color: appTheme.black900.withValues(alpha: 0.08),
                           ),
                         ),
                       ),
@@ -1113,7 +1113,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                           width: 280.h,
                           margin: EdgeInsets.only(bottom: 27.v),
                           decoration: BoxDecoration(
-                            color: appTheme.black900.withOpacity(0.08),
+                            color: appTheme.black900.withValues(alpha: 0.08),
                           ),
                         ),
                       ),
@@ -1146,7 +1146,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                   height: 1.v,
                   width: 280.h,
                   decoration: BoxDecoration(
-                    color: appTheme.black900.withOpacity(0.08),
+                    color: appTheme.black900.withValues(alpha: 0.08),
                   ),
                 ),
                 SizedBox(height: 3.v),
@@ -1245,7 +1245,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                   height: 1.v,
                   width: 280.h,
                   decoration: BoxDecoration(
-                    color: appTheme.black900.withOpacity(0.08),
+                    color: appTheme.black900.withValues(alpha: 0.08),
                   ),
                 ),
                 SizedBox(height: 16.v),
@@ -1262,7 +1262,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                           width: 280.h,
                           margin: EdgeInsets.only(top: 11.v),
                           decoration: BoxDecoration(
-                            color: appTheme.black900.withOpacity(0.08),
+                            color: appTheme.black900.withValues(alpha: 0.08),
                           ),
                         ),
                       ),
@@ -1273,7 +1273,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                           width: 280.h,
                           margin: EdgeInsets.only(top: 39.v),
                           decoration: BoxDecoration(
-                            color: appTheme.black900.withOpacity(0.08),
+                            color: appTheme.black900.withValues(alpha: 0.08),
                           ),
                         ),
                       ),
@@ -1284,7 +1284,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                           width: 280.h,
                           margin: EdgeInsets.only(bottom: 27.v),
                           decoration: BoxDecoration(
-                            color: appTheme.black900.withOpacity(0.08),
+                            color: appTheme.black900.withValues(alpha: 0.08),
                           ),
                         ),
                       ),
@@ -1317,7 +1317,7 @@ class DetailsScreen extends GetWidget<DetailsController> {
                   height: 1.v,
                   width: 280.h,
                   decoration: BoxDecoration(
-                    color: appTheme.black900.withOpacity(0.08),
+                    color: appTheme.black900.withValues(alpha: 0.08),
                   ),
                 ),
                 SizedBox(height: 3.v),
@@ -1441,13 +1441,13 @@ class DetailsScreen extends GetWidget<DetailsController> {
         Text(
           pageTitle,
           style: CustomTextStyles.bodySmall10.copyWith(
-            color: appTheme.black900.withOpacity(0.72),
+            color: appTheme.black900.withValues(alpha: 0.72),
           ),
         ),
         Text(
           pageTitle1,
           style: theme.textTheme.titleLarge!.copyWith(
-            color: appTheme.black900.withOpacity(0.96),
+            color: appTheme.black900.withValues(alpha: 0.96),
           ),
         ),
       ],
@@ -1728,43 +1728,43 @@ class DetailsScreen extends GetWidget<DetailsController> {
         Text(
           mon,
           style: CustomTextStyles.bodySmallBlack90010_2.copyWith(
-            color: appTheme.black900.withOpacity(0.4),
+            color: appTheme.black900.withValues(alpha: 0.4),
           ),
         ),
         Text(
           sun,
           style: CustomTextStyles.bodySmallBlack90010_2.copyWith(
-            color: appTheme.black900.withOpacity(0.4),
+            color: appTheme.black900.withValues(alpha: 0.4),
           ),
         ),
         Text(
           mon1,
           style: CustomTextStyles.bodySmallBlack90010_2.copyWith(
-            color: appTheme.black900.withOpacity(0.4),
+            color: appTheme.black900.withValues(alpha: 0.4),
           ),
         ),
         Text(
           sun1,
           style: CustomTextStyles.bodySmallBlack90010_2.copyWith(
-            color: appTheme.black900.withOpacity(0.4),
+            color: appTheme.black900.withValues(alpha: 0.4),
           ),
         ),
         Text(
           mon2,
           style: CustomTextStyles.bodySmallBlack90010_2.copyWith(
-            color: appTheme.black900.withOpacity(0.4),
+            color: appTheme.black900.withValues(alpha: 0.4),
           ),
         ),
         Text(
           sun2,
           style: CustomTextStyles.bodySmallBlack90010_2.copyWith(
-            color: appTheme.black900.withOpacity(0.4),
+            color: appTheme.black900.withValues(alpha: 0.4),
           ),
         ),
         Text(
           mon3,
           style: CustomTextStyles.bodySmallBlack90010_2.copyWith(
-            color: appTheme.black900.withOpacity(0.4),
+            color: appTheme.black900.withValues(alpha: 0.4),
           ),
         ),
       ],

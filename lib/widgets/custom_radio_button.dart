@@ -1,4 +1,3 @@
-
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
@@ -105,15 +104,20 @@ class CustomRadioButton extends StatelessWidget {
   Widget get radioButtonWidget => SizedBox(
         height: iconSize,
         width: iconSize,
+        // ignore: deprecated_member_use
         child: Radio<String>(
           visualDensity: VisualDensity(
             vertical: -4,
             horizontal: -4,
           ),
           value: value ?? "",
+          // ignore: deprecated_member_use
           groupValue: groupValue,
+          // ignore: deprecated_member_use
           onChanged: (value) {
-            onChange(value!);
+            if (value != null) {
+              onChange(value);
+            }
           },
         ),
       );

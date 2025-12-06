@@ -149,7 +149,7 @@ extension TextFormFieldStyleHelper on CustomTextFormField {
   static OutlineInputBorder get outlineGrayTL8 => OutlineInputBorder(
         borderRadius: BorderRadius.circular(8.h),
         borderSide: BorderSide(
-          color: appTheme.gray900.withOpacity(0.12),
+          color: appTheme.gray900.withValues(alpha: 0.12),
           width: 1,
         ),
       );
@@ -160,7 +160,7 @@ extension TextFormFieldStyleHelper on CustomTextFormField {
   static OutlineInputBorder get outlineGray => OutlineInputBorder(
         borderRadius: BorderRadius.circular(8.h),
         borderSide: BorderSide(
-          color: appTheme.gray900.withOpacity(0.24),
+          color: appTheme.gray900.withValues(alpha: 0.24),
           width: 1,
         ),
       );

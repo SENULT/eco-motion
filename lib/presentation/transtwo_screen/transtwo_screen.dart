@@ -127,7 +127,7 @@ class TranstwoScreen extends GetWidget<TranstwoController> {
                   clipBehavior: Clip.antiAlias,
                   elevation: 0,
                   margin: EdgeInsets.all(0),
-                  color: appTheme.whiteA700.withOpacity(0.8),
+                  color: appTheme.whiteA700.withValues(alpha: 0.8),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadiusStyle.roundedBorder31),
                   child: Container(

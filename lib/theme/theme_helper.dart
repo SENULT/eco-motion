@@ -83,8 +83,8 @@ class ThemeHelper {
         ),
       ),
       radioTheme: RadioThemeData(
-        fillColor: MaterialStateColor.resolveWith((states) {
-          if (states.contains(MaterialState.selected)) {
+        fillColor: WidgetStateColor.resolveWith((states) {
+          if (states.contains(WidgetState.selected)) {
             return colorScheme.primary;
           }
           return colorScheme.onSurface;
@@ -95,8 +95,8 @@ class ThemeHelper {
         ),
       ),
       checkboxTheme: CheckboxThemeData(
-        fillColor: MaterialStateColor.resolveWith((states) {
-          if (states.contains(MaterialState.selected)) {
+        fillColor: WidgetStateColor.resolveWith((states) {
+          if (states.contains(WidgetState.selected)) {
             return colorScheme.primary;
           }
           return colorScheme.onSurface;
@@ -131,43 +131,43 @@ class ThemeHelper {
 class TextThemes {
   static TextTheme textTheme(ColorScheme colorScheme) => TextTheme(
         bodyLarge: TextStyle(
-          color: appTheme.black900.withOpacity(0.96),
+          color: appTheme.black900.withValues(alpha: 0.96),
           fontSize: 16.fSize,
           fontFamily: 'Timmana',
           fontWeight: FontWeight.w400,
         ),
         bodyMedium: TextStyle(
-          color: appTheme.black900.withOpacity(0.96),
+          color: appTheme.black900.withValues(alpha: 0.96),
           fontSize: 14.fSize,
           fontFamily: 'Timmana',
           fontWeight: FontWeight.w400,
         ),
         bodySmall: TextStyle(
-          color: appTheme.black900.withOpacity(0.72),
+          color: appTheme.black900.withValues(alpha: 0.72),
           fontSize: 8.fSize,
           fontFamily: 'Timmana',
           fontWeight: FontWeight.w400,
         ),
         displayMedium: TextStyle(
-          color: colorScheme.onPrimary.withOpacity(1),
+          color: colorScheme.onPrimary.withValues(alpha: 1),
           fontSize: 40.fSize,
           fontFamily: 'Timmana',
           fontWeight: FontWeight.w400,
         ),
         headlineLarge: TextStyle(
-          color: appTheme.black900.withOpacity(0.96),
+          color: appTheme.black900.withValues(alpha: 0.96),
           fontSize: 32.fSize,
           fontFamily: 'Timmana',
           fontWeight: FontWeight.w400,
         ),
         headlineMedium: TextStyle(
-          color: colorScheme.onPrimary.withOpacity(1),
+          color: colorScheme.onPrimary.withValues(alpha: 1),
           fontSize: 28.fSize,
           fontFamily: 'Timmana',
           fontWeight: FontWeight.w400,
         ),
         headlineSmall: TextStyle(
-          color: appTheme.black900.withOpacity(0.96),
+          color: appTheme.black900.withValues(alpha: 0.96),
           fontSize: 24.fSize,
           fontFamily: 'Timmana',
           fontWeight: FontWeight.w400,
@@ -179,13 +179,13 @@ class TextThemes {
           fontWeight: FontWeight.w700,
         ),
         titleLarge: TextStyle(
-          color: appTheme.black900.withOpacity(0.96),
+          color: appTheme.black900.withValues(alpha: 0.96),
           fontSize: 20.fSize,
           fontFamily: 'Timmana',
           fontWeight: FontWeight.w400,
         ),
         titleMedium: TextStyle(
-          color: appTheme.black900.withOpacity(0.96),
+          color: appTheme.black900.withValues(alpha: 0.96),
           fontSize: 16.fSize,
           fontFamily: 'Roboto',
           fontWeight: FontWeight.w500,
