@@ -19,10 +19,10 @@ class AppDecoration {
         color: appTheme.gray50,
       );
   static BoxDecoration get fillGray5001 => BoxDecoration(
-        color: appTheme.gray5001.withOpacity(0.8),
+        color: appTheme.gray5001.withValues(alpha: 0.8),
       );
   static BoxDecoration get fillGreenA => BoxDecoration(
-        color: appTheme.greenA70001.withOpacity(0.16),
+        color: appTheme.greenA70001.withValues(alpha: 0.16),
       );
   static BoxDecoration get fillGreenA70001 => BoxDecoration(
         color: appTheme.greenA70001,
@@ -37,7 +37,7 @@ class AppDecoration {
         color: appTheme.whiteA700,
       );
   static BoxDecoration get fillWhiteA700 => BoxDecoration(
-        color: appTheme.whiteA700.withOpacity(0.8),
+        color: appTheme.whiteA700.withValues(alpha: 0.8),
       );
   static BoxDecoration get fillYellow => BoxDecoration(
         color: appTheme.yellow600,
@@ -49,8 +49,8 @@ class AppDecoration {
           begin: Alignment(0.5, 0),
           end: Alignment(0.5, 1),
           colors: [
-            appTheme.whiteA700.withOpacity(0),
-            appTheme.whiteA700.withOpacity(0.88),
+            appTheme.whiteA700.withValues(alpha: 0),
+            appTheme.whiteA700.withValues(alpha: 0.88),
             appTheme.whiteA700,
           ],
         ),
@@ -61,7 +61,7 @@ class AppDecoration {
         color: appTheme.whiteA700,
         boxShadow: [
           BoxShadow(
-            color: appTheme.black900.withOpacity(0.04),
+            color: appTheme.black900.withValues(alpha: 0.04),
             spreadRadius: 2.h,
             blurRadius: 2.h,
             offset: Offset(
@@ -75,7 +75,7 @@ class AppDecoration {
         color: appTheme.whiteA700,
         boxShadow: [
           BoxShadow(
-            color: appTheme.black900.withOpacity(0.06),
+            color: appTheme.black900.withValues(alpha: 0.06),
             spreadRadius: 2.h,
             blurRadius: 2.h,
             offset: Offset(

@@ -172,7 +172,7 @@ class DashboardTwoPage extends StatelessWidget {
                     effect: ScrollingDotsEffect(
                       spacing: 4,
                       activeDotColor:
-                          theme.colorScheme.primary.withOpacity(0.16),
+                          theme.colorScheme.primary.withValues(alpha: 0.16),
                       dotColor: appTheme.blueGray100,
                       dotHeight: 6.v,
                       dotWidth: 6.h,
@@ -385,7 +385,7 @@ class DashboardTwoPage extends StatelessWidget {
                 Text(
                   pageTitle,
                   style: CustomTextStyles.bodySmallBlack90010.copyWith(
-                    color: appTheme.black900.withOpacity(0.96),
+                    color: appTheme.black900.withValues(alpha: 0.96),
                   ),
                 ),
                 SizedBox(
@@ -395,7 +395,7 @@ class DashboardTwoPage extends StatelessWidget {
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: theme.textTheme.bodySmall!.copyWith(
-                      color: appTheme.black900.withOpacity(0.72),
+                      color: appTheme.black900.withValues(alpha: 0.72),
                     ),
                   ),
                 ),
@@ -405,7 +405,7 @@ class DashboardTwoPage extends StatelessWidget {
                     Text(
                       pageTitle2,
                       style: theme.textTheme.bodyLarge!.copyWith(
-                        color: appTheme.black900.withOpacity(0.96),
+                        color: appTheme.black900.withValues(alpha: 0.96),
                       ),
                     ),
                     Padding(
@@ -417,7 +417,7 @@ class DashboardTwoPage extends StatelessWidget {
                       child: Text(
                         weather,
                         style: theme.textTheme.bodySmall!.copyWith(
-                          color: appTheme.black900.withOpacity(0.72),
+                          color: appTheme.black900.withValues(alpha: 0.72),
                         ),
                       ),
                     ),
@@ -426,7 +426,7 @@ class DashboardTwoPage extends StatelessWidget {
                       child: Text(
                         pageTitle3,
                         style: theme.textTheme.bodyLarge!.copyWith(
-                          color: appTheme.black900.withOpacity(0.96),
+                          color: appTheme.black900.withValues(alpha: 0.96),
                         ),
                       ),
                     ),
@@ -439,7 +439,7 @@ class DashboardTwoPage extends StatelessWidget {
                       child: Text(
                         weather1,
                         style: theme.textTheme.bodySmall!.copyWith(
-                          color: appTheme.black900.withOpacity(0.72),
+                          color: appTheme.black900.withValues(alpha: 0.72),
                         ),
                       ),
                     ),

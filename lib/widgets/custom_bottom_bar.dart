@@ -73,7 +73,7 @@ class CustomBottomBar extends StatelessWidget {
                   Text(
                     bottomMenuList[index].title ?? "",
                     style: CustomTextStyles.bodySmall10_2.copyWith(
-                      color: appTheme.black900.withOpacity(0.72),
+                      color: appTheme.black900.withValues(alpha: 0.72),
                     ),
                   ),
                 ],

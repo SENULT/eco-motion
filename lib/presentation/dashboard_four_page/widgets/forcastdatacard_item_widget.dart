@@ -71,7 +71,7 @@ class ForcastdatacardItemWidget extends StatelessWidget {
               height: 1.v,
               width: 32.h,
               decoration: BoxDecoration(
-                color: appTheme.black900.withOpacity(0.08),
+                color: appTheme.black900.withValues(alpha: 0.08),
               ),
             ),
             SizedBox(height: 7.v),

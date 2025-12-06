@@ -136,7 +136,7 @@ class DashboardSevenScreen extends GetWidget<DashboardSevenController> {
                         height: 1.v,
                         width: 280.h,
                         decoration: BoxDecoration(
-                            color: appTheme.black900.withOpacity(0.08))),
+                            color: appTheme.black900.withValues(alpha: 0.08))),
                     SizedBox(height: 16.v),
                     SizedBox(
                         height: 95.v,
@@ -150,7 +150,7 @@ class DashboardSevenScreen extends GetWidget<DashboardSevenController> {
                                   margin: EdgeInsets.only(top: 11.v),
                                   decoration: BoxDecoration(
                                       color: appTheme.black900
-                                          .withOpacity(0.08)))),
+                                          .withValues(alpha: 0.08)))),
                           Align(
                               alignment: Alignment.topCenter,
                               child: Container(
@@ -159,7 +159,7 @@ class DashboardSevenScreen extends GetWidget<DashboardSevenController> {
                                   margin: EdgeInsets.only(top: 39.v),
                                   decoration: BoxDecoration(
                                       color: appTheme.black900
-                                          .withOpacity(0.08)))),
+                                          .withValues(alpha: 0.08)))),
                           Align(
                               alignment: Alignment.bottomCenter,
                               child: Container(
@@ -168,7 +168,7 @@ class DashboardSevenScreen extends GetWidget<DashboardSevenController> {
                                   margin: EdgeInsets.only(bottom: 27.v),
                                   decoration: BoxDecoration(
                                       color: appTheme.black900
-                                          .withOpacity(0.08)))),
+                                          .withValues(alpha: 0.08)))),
                           CustomImageView(
                               imagePath: ImageConstant.imgChart,
                               height: 80.v,
@@ -229,7 +229,7 @@ class DashboardSevenScreen extends GetWidget<DashboardSevenController> {
                         height: 1.v,
                         width: 280.h,
                         decoration: BoxDecoration(
-                            color: appTheme.black900.withOpacity(0.08))),
+                            color: appTheme.black900.withValues(alpha: 0.08))),
                     SizedBox(height: 3.v),
                     Padding(
                         padding: EdgeInsets.symmetric(horizontal: 12.h),

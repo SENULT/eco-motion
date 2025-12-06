@@ -29,7 +29,7 @@ class AppbarSubtitleOne extends StatelessWidget {
         child: Text(
           text,
           style: CustomTextStyles.bodyLargeGray900.copyWith(
-            color: appTheme.gray900.withOpacity(0.72),
+            color: appTheme.gray900.withValues(alpha: 0.72),
           ),
         ),
       ),
